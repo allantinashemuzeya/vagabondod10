@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: OhypfKr4_Eo8XwXg3Sios05lN-LjxOhSdSOSkEN9Ndo
+langcode: en-gb
+logo:
+  use_default: false
+  path: sites/default/files/vagabondo-logo.svg
+brand_image:
+  use_default: false
+  path: 'public://Super Yachts iPhone Wallpaper.jpg'
