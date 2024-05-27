@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for CustomLayoutBuilderBlock module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+ function custom_layout_builder_block_preprocess_block(&$variables) {
+  if ($variables['plugin_id'] == 'entity_browser_block:department_info') {
+    $variables['#attached']['library'][] = 'drupal/libraryname';
+  }
+}
